@@ -32,11 +32,11 @@ export default function App() {
       <footer style={{
         textAlign: "center",
         padding: "2rem 0 1rem",
-        color: "rgba(255, 255, 255, 0.6)",
+        color: "rgba(236, 14, 14, 0.6)",
         fontSize: "0.85rem",
         marginTop: "auto"
       }}>
-        Made with ❤️ by Developers M&N @ 2026 and copyright to <a href="https://github.com/meha7hak" target="_blank" rel="noopener noreferrer" style={{ color: "rgba(255, 255, 255, 0.8)", textDecoration: "underline" }}>github.com/meha7hak</a>
+        Made with ❤️ by Developers M&N @ 2026 || Source - <a href="https://github.com/meha7hak" target="_blank" rel="noopener noreferrer" style={{ color: "rgba(153, 106, 106, 0.8)", textDecoration: "underline" }}>github.com/meha7hak</a>
       </footer>
     </main>
   );
