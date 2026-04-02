@@ -64,8 +64,7 @@ export default function SearchSafety() {
           const data = await searchNearbySafety({
             latitude: position.coords.latitude,
             longitude: position.coords.longitude,
-            radiusKm: 2,
-            timeSlot: query.timeSlot
+            radiusKm: 2
           });
           setResult(data.result);
           setReports(data.reports || []);
