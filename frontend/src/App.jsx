@@ -1,4 +1,4 @@
-﻿import ReportForm from "./components/ReportForm";
+import ReportForm from "./components/ReportForm";
 import SafetyMap from "./components/SafetyMap";
 import SearchSafety from "./components/SearchSafety";
 
@@ -28,6 +28,16 @@ export default function App() {
         <SearchSafety />
         <ReportForm />
       </section>
+
+      <footer style={{
+        textAlign: "center",
+        padding: "2rem 0 1rem",
+        color: "rgba(255, 255, 255, 0.6)",
+        fontSize: "0.85rem",
+        marginTop: "auto"
+      }}>
+        Made with ❤️ by Developers M&N @ 2026 and copyright to <a href="https://github.com/meha7hak" target="_blank" rel="noopener noreferrer" style={{ color: "rgba(255, 255, 255, 0.8)", textDecoration: "underline" }}>github.com/meha7hak</a>
+      </footer>
     </main>
   );
 }
